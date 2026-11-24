@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lesson 5</title>
+        <style>
+            table, td, th{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!--This is Table 1-->
+        <table>
+            <thead>
+                <tr>
+                    <th>First Name</td>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Email</th>
+
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>30</td>
+                    <td>john.doe@example.com</td>
+
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>Doe</td>
+                    <td>30</td>
+                    <td>jane.doe@example.com</td>
+
+                </tr>
+
+            </tbody>
+            <tfooter>
+                <tr>
+                    <td coldspan = "4">This is the footer of the table</td>
+                </tr>
+            </tfooter>
+
+        </table>
+        
+        <hr>
+        <!---This is table 2 -->
+        <table>
+            <tr>
+                <th>Name:</th>:</th>
+                <td>John Doe</td>
+                <td>John Smith</td>
+            </tr>
+
+            <tr>
+                <th rowspan= "2">Name:</th>:</th>
+                <td>johndoe@example.com</td>
+                <td rowspan = "2">johnsmith@example.com</td>
+            </tr>
+
+            <tr>
+                <td>johndoe@example.com</td>
+            </tr>
+        </table>
+        <hr>
+
+        <ul type = "square">
+            <li>Neapolitan Pizza</li>
+            <li>Margherita Pizza</li>
+            <li>Pepperoni Pizza</li>
+        </ul>
+        
+        <hr>
+
+        <ol type = "I">
+            <li>HTML</li>
+            <li>PYTHON</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+        
+        <hr>
+
+        <h1 contenteditable="true"> Try changing the text of the heading</h1>
+        <p contenteditable="true">Try changing the text of the heading</p>
+        <div contenteditable="true">Try changing the text of this div</div>
+    
+    <p> We have a meeting at <time> 15:00</time> today. </p>
+    <p> We have a meeting at <time datetime = "2026-11-25"> 15:00</time> on November 25, 2026. </p>
+
+    <label for = "task">Task completion:</label>
+    <progress id="task" value="20" max="100"></progress> 20%
+    </body>
+</html>
